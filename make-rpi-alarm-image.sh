@@ -107,7 +107,7 @@ fi
 set -e
 
 echo "Downloading expand-rootfs script..."
-wget http://snoop05.uhostall.com/Raspberry%20Pi/expand-rootfs -O ${TEMP}/expand-rootfs
+wget https://raw.githubusercontent.com/Snoop05/raspberrypi/master/expand-rootfs.sh -O ${TEMP}/expand-rootfs.sh
 
 if [ -z ${FILE} ]; then
     FILE=$(filename)
@@ -152,7 +152,7 @@ echo "Extracting tarball..."
 bsdtar -xpf ${TEMP}/ArchLinuxARM-$DATE-$TARGET-rootfs.tar.gz -C ${TEMP}/root
 mv ${TEMP}/root/boot/* ${TEMP}/boot/
 echo "Copying expand-rootfs script..."
-cp ${TEMP}/expand-rootfs ${TEMP}/root/usr/local/bin/expand-rootfs
+cp ${TEMP}/expand-rootfs.sh ${TEMP}/root/usr/local/bin/expand-rootfs
 chmod 777 ${TEMP}/root/usr/local/bin/expand-rootfs
 
 echo "Unmounting image..."
