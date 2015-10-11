@@ -21,6 +21,7 @@
 * Create disk image that can be flashed from any OS (no need to have Linux machine).
 * Should work with 2GB and bigger sdcards.
 * `expand-rootfs.sh` included in final disk image (`/usr/local/bin/expand-rootfs`) for resizing root partition (just type `expand-rootfs` after logging in).
-* Prebuilt images available for download here: [To be uploaded](http://snoop05.uhostall.com/?dir=Raspberry%20Pi)
+
+##### Prebuilt images available for download here: [To be uploaded](http://snoop05.uhostall.com/?dir=Raspberry%20Pi)
 
 ## More to come!
