@@ -22,6 +22,6 @@
 * Should work with 2GB and bigger sdcards.
 * `expand-rootfs.sh` included in final disk image (`/usr/local/bin/expand-rootfs`) for resizing root partition (just type `expand-rootfs` after logging in).
 
-##### Prebuilt images available for download here: [Releases page](https://github.com/Snoop05/raspberrypi/releases)
+#### Prebuilt images available for download here: [Releases page](https://github.com/Snoop05/raspberrypi/releases)
 
 ## More to come!
